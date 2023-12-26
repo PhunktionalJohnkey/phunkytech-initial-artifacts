@@ -44,3 +44,7 @@ jobs:
         run: ls 
       - name: Deploy
         run: echo "Deploying..."
+      - name: what-directory-is-it-really
+        run: echo "Directory is..."
+      - name: shows-directory
+        run: ls -lt dist
